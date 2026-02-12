@@ -253,19 +253,19 @@ export default function Footer() {
             <p className="text-white/70 mb-4">
               Get the latest updates on our services and industry insights delivered to your inbox.
             </p>
-            <form className="flex gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-[hsl(var(--primary))]"
-              />
-              <button
-                type="submit"
-                className="flex px-4 py-3 bg-[hsl(var(--secondary))] text-white rounded-lg hover:opacity-90 transition-opacity font-semibold w-20"
-              >
-                Subscribe
-              </button>
-            </form>
+           <form className="flex flex-col sm:flex-row gap-3">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="flex-1 px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-[hsl(var(--primary))]"
+                />
+                <button
+                  type="submit"
+                  className="px-4 py-3 bg-[hsl(var(--secondary))] text-white rounded-lg hover:opacity-90 transition-opacity font-semibold w-full sm:w-auto sm:min-w-[120px]"
+                >
+                  Subscribe
+                </button>
+          </form>
           </div>
         </div>
       </div>
