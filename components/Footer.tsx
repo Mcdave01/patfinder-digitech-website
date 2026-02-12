@@ -261,7 +261,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="flex px-4 py-3 bg-[hsl(var(--secondary))] text-white rounded-lg hover:opacity-90 transition-opacity font-semibold"
+                className="flex px-4 py-3 bg-[hsl(var(--secondary))] text-white rounded-lg hover:opacity-90 transition-opacity font-semibold w-20"
               >
                 Subscribe
               </button>
