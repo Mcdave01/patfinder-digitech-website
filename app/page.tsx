@@ -18,7 +18,7 @@ export default function Page() {
         <Services />
         <Features />
         <Portfolio />
-        <Team />
+       {/**<Team /> */} 
         <Testimonials />
         <CTA />
         <Contact />
