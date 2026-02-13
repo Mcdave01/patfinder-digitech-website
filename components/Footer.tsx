@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import Image from 'next/image';
 import {
   Facebook,
   Twitter,
@@ -29,7 +29,8 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">PD</span>
+                 <Image src="/logo_path.jpg" alt="PathFinder DigiTech Logo" width={40} height={40} className="object-contain" />
+                {/* <span className="text-white font-bold text-lg">PD</span> */}
               </div>
               <div>
                 <div className="font-bold text-xl">PathFinder</div>
