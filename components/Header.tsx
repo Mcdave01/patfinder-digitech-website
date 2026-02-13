@@ -20,8 +20,8 @@ export default function Header() {
       <nav className="container-custom flex items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-2">
           <div className="w-10 h-10 bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center">
-            <Image src="/logo_path.jpg" alt="PathFinder DigiTech Logo" width={24} height={24} className="object-contain" />
-            <span className="text-white font-bold text-lg">PD</span>
+            <Image src="/logo_path.jpg" alt="PathFinder DigiTech Logo" width={40} height={40} className="object-contain" />
+            {/*<span className="text-white font-bold text-lg">PD</span>*/}
           </div>
           <div className="hidden sm:block">
             <div className="text-xl font-bold text-foreground leading-none">PathFinder</div>
