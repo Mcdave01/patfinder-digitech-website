@@ -59,6 +59,12 @@ const services = [
     description: 'Advanced data analysis, predictive modeling, business intelligence dashboards, and data-driven insights for strategic decision making.',
     image: '/service-analytics.webp',
   },
+  {
+    icon: BarChart3,
+    title: 'CBT Integrations for Institutions',
+    description: 'Complete Computer-Based Testing (CBT) solutions for schools, universities, and training centers. Includes software integration, hardware setup, and training.',
+    image: '/service-cbt.jpg',
+  },
 ];
 
 const containerVariants = {
