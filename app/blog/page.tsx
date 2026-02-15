@@ -17,7 +17,7 @@ const blogPosts = [
     date: 'March 15, 2025',
     author: 'Sarah Johnson',
     category: 'Technology',
-    image: '/portfolio-image.jpg',
+    image: '/Future_web_Dev.png',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const blogPosts = [
     date: 'March 10, 2025',
     author: 'Michael Chen',
     category: 'Mobile',
-    image: '/portfolio-image.jpg',
+    image: '/CRM_Mobile.png',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const blogPosts = [
     date: 'March 5, 2025',
     author: 'Emma Rodriguez',
     category: 'Design',
-    image: '/portfolio-image.jpg',
+    image: '/ui-ux.jpg',
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const blogPosts = [
     date: 'February 28, 2025',
     author: 'David Kumar',
     category: 'Security',
-    image: '/portfolio-image.jpg',
+    image: '/Digital_Security.jpg',
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const blogPosts = [
     date: 'February 20, 2025',
     author: 'Sarah Johnson',
     category: 'SEO',
-    image: '/portfolio-image.jpg',
+    image: '/seo-strategies.png',
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const blogPosts = [
     date: 'February 15, 2025',
     author: 'Michael Chen',
     category: 'Startup',
-    image: '/portfolio-image.jpg',
+    image: '/scale_up.png',
   },
 ];
 
