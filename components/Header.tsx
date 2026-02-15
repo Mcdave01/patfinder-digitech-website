@@ -34,18 +34,19 @@ export default function Header() {
           <Link href="/" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
             Home
           </Link>
+          <Link href="/about" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
+            About
+          </Link>
           <Link href="/services" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
             Services
           </Link>
-          <Link href="/about" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
-            About
+           <Link href="/#contact" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
+            Contact
           </Link>
           <Link href="/blog" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
             Blog
           </Link>
-          <Link href="/#contact" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
-            Contact
-          </Link>
+         
         </div>
 
         {/* CTA Buttons */}
