@@ -65,6 +65,12 @@ const services = [
     description: 'Complete Computer-Based Testing (CBT) solutions for schools, universities, and training centers. Includes software integration, hardware setup, and training.',
     image: '/service-cbt.jpg',
   },
+   {
+    icon: BarChart3,
+    title: 'Automation',
+    description: 'Complete automation solutions for institutions and businesses. Includes process automation, workflow optimization, and system integration.',
+    image: '/service-automation.avif',
+  },
 ];
 
 const containerVariants = {
