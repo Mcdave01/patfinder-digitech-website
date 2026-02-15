@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="relative h-96 md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/team-image.jpg"
+                  src="/logo_path.jpg"
                   alt="Our team"
                   fill
                   className="object-cover"
