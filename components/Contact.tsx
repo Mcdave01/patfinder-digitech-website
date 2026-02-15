@@ -238,14 +238,14 @@ export default function Contact() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3">
-                <button
+                {/* <button
                   type="submit"
                   disabled={isSubmitting}
                   className="flex-1 btn-primary flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <Send size={18} />
                   {isSubmitting ? 'Sending...' : 'Send Message'}
-                </button>
+                </button> */}
                 <a
                   href={whatsappLink}
                   target="_blank"
