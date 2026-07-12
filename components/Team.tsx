@@ -17,20 +17,21 @@ const teamMembers = [
     role: 'Tech Lead',
     bio: 'Full-stack expert specializing in scalable architectures',
     image: '/tech_lead.jpeg',
-     tel: '📞 +2347035655588'
+     tel: '📞 +234 703 565 5588'
   },
   {
     name: 'Mr Mayowa Olaniran',
     role: 'Head of Design',
     bio: 'Award-winning UX/UI designer passionate about user experience',
     image: '/mayowa.jpeg',
-    tel: '📞 +2347063439200'
+    tel: '📞 +234 706 343 9200'
   },
   {
     name: 'Fuwad Olanrewaju',
     role: 'Project Manager',
     bio: 'Agile practitioner ensuring timely and quality delivery',
-    image: '/',
+    image: '/fuwad.jpeg',
+    tel: '📞 +234 706 775 2068 '
   },
 ];
 
