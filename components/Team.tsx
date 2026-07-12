@@ -9,19 +9,22 @@ const teamMembers = [
     name: 'Mr Adedotun Livingstone',
     role: 'Founder & CEO',
     bio: 'Strategic visionary with 10+ years in digital transformation',
-    image: '/',
+    image: '/ceo.jpeg',
+    tel: '📞 +2349048515646 +2250545114930  +2348133368142'
   },
   {
-    name: 'Ayodele Oke',
-    role: 'CTO & Lead Developer',
+    name: 'Atanda Oluwagbenga',
+    role: 'Tech Lead',
     bio: 'Full-stack expert specializing in scalable architectures',
-    image: '/',
+    image: '/tech_lead.jpeg',
+     tel: '📞 +2347035655588'
   },
   {
     name: 'Mr Mayowa Olaniran',
     role: 'Head of Design',
     bio: 'Award-winning UX/UI designer passionate about user experience',
-    image: '/',
+    image: '/mayowa.jpeg',
+    tel: '📞 +2347063439200'
   },
   {
     name: 'Fuwad Olanrewaju',
@@ -104,6 +107,9 @@ export default function Team() {
                 </p>
                 <p className="text-[hsl(var(--muted-foreground))] text-sm leading-relaxed mb-4">
                   {member.bio}
+                </p>
+                 <p className="text-[hsl(var(--muted-foreground))] text-sm leading-relaxed mb-4">
+                  {member.tel}
                 </p>
 
                 {/* Social Links */}
