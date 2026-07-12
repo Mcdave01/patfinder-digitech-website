@@ -30,7 +30,7 @@ const teamMembers = [
     name: 'Fuwad Olanrewaju',
     role: 'Project Manager',
     bio: 'Agile practitioner ensuring timely and quality delivery',
-    image: '/fuwad.jpeg',
+    image: '/Fuwad.jpeg',
     tel: '📞 +234 706 775 2068 '
   },
 ];
