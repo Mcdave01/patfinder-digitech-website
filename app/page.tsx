@@ -4,6 +4,7 @@ import Services from '@/components/Services';
 import Features from '@/components/Features';
 import Portfolio from '@/components/Portfolio';
 import Team from '@/components/Team';
+import Events from '@/components/Events'
 import Testimonials from '@/components/Testimonials';
 import CTA from '@/components/CTA';
 import Contact from '@/components/Contact';
@@ -18,7 +19,8 @@ export default function Page() {
         <Services />
         <Features />
         <Portfolio />
-       {/**<Team /> */} 
+       <Team /> 
+         <Events />
         <Testimonials />
         <CTA />
         <Contact />

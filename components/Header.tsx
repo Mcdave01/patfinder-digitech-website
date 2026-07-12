@@ -46,6 +46,9 @@ export default function Header() {
           <Link href="/blog" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
             Blog
           </Link>
+          <Link href="/events" className="text-foreground hover:text-[hsl(var(--primary))] transition-colors font-medium">
+            Events
+          </Link>
          
         </div>
 
@@ -105,6 +108,13 @@ export default function Header() {
                 onClick={() => setIsOpen(false)}
               >
                 Blog
+              </Link>
+              <Link
+                href="/events"
+                className="text-foreground hover:text-[hsl(var(--primary))] transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Events
               </Link>
               <Link
                 href="/#contact"
